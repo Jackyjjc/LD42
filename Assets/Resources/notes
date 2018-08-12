@@ -1,0 +1,58 @@
+        {
+            "id": -1,
+            "type": "text",
+            "npc": "Charles",
+            "require_items": ["I have a gun", "Diane is murdered", "Murder evidence"],
+            "dialogs": [
+                ""
+            ]
+        },
+        {
+            "id": -1,
+            "type": "option",
+            "option": [{
+                "require_items": ["Charles is the murderer"],
+                "text": "Accuse Charlie"
+            }],
+            "children": []
+        },
+        {
+            "id": -1,
+            "type": "text",
+            "npc": "Charles",
+            "require_items": ["I have a gun", "Charles is the murderer", "Undercover", "Murder evidence"],
+            "dialogs": [
+                "Charles, I have turned you to the police",
+                ""
+            ],
+            "add_items": null,
+            "children": null
+        },
+        {
+            "id": -1,
+            "type": "text",
+            "npc": "Charles",
+            "require_items": ["I have a gun", "Charles is the murderer", "Undercover", "Murder evidence"],
+            "dialogs": [
+                "(I pulled out my gun, pointed at Charles.)",
+                "Put up your hands, you are arrested. You have been charged with the murder of Diane Wilkins.",
+                "Charles: You have no evidence.",
+                "You better wish that."
+            ],
+            "add_items": null,
+            "children": null
+        },
+        {
+            "id": -1,
+            "type": "text",
+            "npc": "Charles",
+            "require_items": ["I have a gun", "Charles is the murderer", "Undercover", "Murder evidence"],
+            "dialogs": [
+                "(I pulled out my gun, pointed at Charles.)",
+                "Put up your hands, you are arrested. You have been charged with the murder of Diane Wilkins.",
+                "Charles: You have no evidence.",
+                "You better wish that."
+            ],
+            "add_items": null,
+            "children": null
+        },
